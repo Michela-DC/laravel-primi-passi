@@ -48,7 +48,7 @@
 
     <main>
         <div class="container">
-            <h2>Hi, I'm Michela!</h2>
+            <h2>{{$title_about}}</h2>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nostrum amet accusamus ipsa. Ullam aperiam cupiditate nesciunt facilis, recusandae ratione placeat corporis! Quod voluptatibus ratione similique ipsa ipsam sunt odio.
             </p>

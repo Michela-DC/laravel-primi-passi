@@ -56,7 +56,7 @@
     <main>
         <div class="container">
             <div class="contacts-container">
-                <h3>Contact me:</h3>
+                <h3>{{ $title1_contacts }}</h3>
                 <ul class="contacts">
                     <li>Phone: 0123456789</li>
                     <li>Email: itsMeMichela@gmail.com</li>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="address-containers">
-                <h3>Or you can find me here:</h3>
+                <h3>{{ $title2_contacts }}</h3>
                 <div class="address">Address: somewhere over the rainbow n.1</div>
             </div>
         

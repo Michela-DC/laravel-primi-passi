@@ -53,7 +53,7 @@
 
     <main>
         <div class="container">
-            <h2>Check my projects here:</h2>
+            <h2>{{ $title_projects}}</h2>
             <a href="https://github.com/Michela-DC?tab=repositories">My GitHub</a>
         </div>
     </main>
