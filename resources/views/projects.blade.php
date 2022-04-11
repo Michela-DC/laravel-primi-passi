@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Laravel</title>
-    
+    <title>My Projects</title>
+
     <style>
         *{
             box-sizing: border-box;
@@ -27,16 +27,35 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
+        }
+
+        .container{
+            width: 65%;
+            text-align: center
+        }
+
+        .container h2{
+            margin-bottom: 20px;
+        }
+
+        .container a{
+            font-size: 1.3rem;
+            text-decoration: underline;
         }
     </style>
 
 </head>
 
 <body>
+
     @include('navbar')
 
     <main>
-        <h1> {{ $title }} </h1>
+        <div class="container">
+            <h2>Check my projects here:</h2>
+            <a href="https://github.com/Michela-DC?tab=repositories">My GitHub</a>
+        </div>
     </main>
 </body>
 </html>

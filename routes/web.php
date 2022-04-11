@@ -14,14 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home', [
-        'title' => 'Hello World!',
-        'homePage' => 'home',
-        'aboutMe' => 'about me',
-        'myProjects' => 'my projects',
-        'myContacts' => 'contact me'
-    ]);
+    return view('home', ['title' => 'Hello World!',]);
+})-> name('home');
+
+Route::get('/navbar', function () {
+    return view('navbar', ['homePage' => 'home']);
 });
+
+Route::get('/about', function () {
+    return view('about');
+})-> name('about');
+
+Route::get('/projects', function () {
+    return view('projects');
+})-> name('projects');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})-> name('contacts');
+
+
+
+
 
 
 
